@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 26px;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: inherit;
+
+}
+h2{
+    text-align: center;
+}
+h5{
+    text-decoration: underline;
+}
+
+.rooms{
+       font-size: 14px;
+       margin: 50px;
+
+}
+.rooms div {
+ text-align: center
+}
+.rooms div:hover {
+    background-color:rgb(255, 240, 118);
+}
+.rooms img:hover{
+    opacity:.8;
+}
+.map{
+    position:fixed;
+    width:50%;
+    height:500px;
+    top:120px;
+    right:150px;
+}

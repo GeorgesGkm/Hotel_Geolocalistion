@@ -1,0 +1,8 @@
+reatesuperuser
+user = root
+pwd =1234
+
+ tooltip = L.tooltip({
+            permanent:true
+        }).setContent(room.username )
+        marker.bindTooltip(tooltip)
